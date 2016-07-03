@@ -1,0 +1,41 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.10.0]
+    method: GET
+    uri: http://hub.wattbike.com/ranking/getSessionRows?sessionId=nonexistentsessionid
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA3WSy26DMBBFf6WaNaoIShuJHW2qdsEiSrMqYjGF4aEYGw0mj0b595pnE5KyMvfc
+        GV+PfQKBZQVugqIiCyosSkFr1ATuzIKDd8gNDGbz58WTPbfbL7QgURzRinALrm1BqQSyx4zHsU8r
+        +ZToV1VLDa6shejVTcZKa9FtMPq6Zhe2dZ5mt+pg9WTadLjnv0K4I8aUJmV9yB5OK6/pX7h/qkaQ
+        8ZeS9IIybkYWNrn2NNV0XpgtAnvA/TobFqz2/cjMdCKMSUaDX/iUDnYyhE3LE6SMZfapkfWyu7XL
+        q7I6/CbjO/BswY8J98Ebk6mJZ/IFYdipqybcFOxyMuo7q7ocT92YTXP080rfiKNAkjg99m+kPUJB
+        hWLzA47z6Cwett9w/gXuFu1YjAIAAA==
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+        'max-age=0, no-cache', no-cache="set-cookie"]
+      Cache-control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0',
+        'max-age=0, no-cache', no-cache="set-cookie"]
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Length: ['307']
+      Content-Type: [text/html]
+      Date: ['Sun, 03 Jul 2016 14:26:45 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [PHPSESSID=5imcsq3vga7tjcr7gg0ahn4642; path=/, 'hub_powerhub=6siuLQcM%2BRs9p0JhMdk4v9MiOaDDEclHNTFhaldpfPQv8GMDc%2Bfmsu4CmjRyx2zPs%2F2j8mY43Mo1OyzCXZ2NnQ9ZlQOiIWIN5J5TsKpbMbWFRxlbXxeXHDSxFH3GN3yL%2FufQmh574fnLcI4M4t0mZiDCJIsT7nDjQ4dEPeP4%2B7q7kABrAerLcCGfjfIt0YwW6i%2Btxa3prtju8rHZWtImAzP7w0gh4vnceg%2FjKt7TBJTnQX59m5VpNX0MBksSoyWpw7A%2FvCnjy9gAuOLEuW%2BW4t0Tn0%2FamVLTvT20xZTIeME%3D;
+          expires=Tue, 03-Jul-2018 14:26:45 GMT; path=/; domain=hub.wattbike.com',
+        AWSELB=D77FA5870204923687B1BF19DA436F11B1C9D510E35D4F92A3A4B5090526E6BF558029C8B0CBC7D370B5FBEAC40BFA9D3FE3D4F2FA04B87258E4DF18EFC9D06E5E592329C2;PATH=/]
+      Vary: [Accept-Encoding]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Mod-Pagespeed: [1.7.30.4-]
+      X-Powered-By: [PHP/5.4.29]
+    status: {code: 200, message: OK}
+version: 1
