@@ -13,7 +13,7 @@ Python library that provides access to Wattbike sessions and other data stored i
 The Wattbike Hub does not offer a public API. Well... to be more accurate: the API is not documented. There are a few API endpoints that are used by both the website and apps that offer some API functionality. I used these endpoints to build this library.
 
 ## Requirements
-- Python 3 (Parts of the code might work in Python 2 and I might add Python 2 support in the future)
+- Python 3 (Parts of the code might work in Python 2. Full support for Python 2 is not planned)
 - All the libraries in requirements.txt installed (in your virtualenv).
 - Wattbike Hub account set to 'publicly viewable'. Check this in your [Wattbike Hub settings](http://hub.wattbike.com/account/edit)
 

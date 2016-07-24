@@ -1,7 +1,7 @@
 import vcr
 
 
-MOCK_RECORDING_ENABLED = True
+MOCK_RECORDING_ENABLED = False
 
 
 vcr = vcr.VCR(
