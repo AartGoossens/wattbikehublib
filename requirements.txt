@@ -1,6 +1,6 @@
 appnope==0.1.0
 backports.shutil-get-terminal-size==1.0.0
-coverage==4.1
+coverage==4.0.3
 decorator==4.0.10
 freezegun==0.3.7
 gnureadline==6.3.3
@@ -10,9 +10,11 @@ luckydonald-utils==0.44
 pexpect==4.1.0
 pickleshare==0.7.2
 ptyprocess==0.5.1
+python-coveralls==2.7.0
 python-dateutil==2.5.3
 PyYAML==3.11
 requests==2.10.0
+sh==1.11
 simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.2.2
