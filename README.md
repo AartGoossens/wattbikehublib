@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/AartGoossens/wattbikehublib.svg?branch=master)](https://travis-ci.org/AartGoossens/wattbikehublib)
+[![Coverage Status](https://coveralls.io/repos/github/AartGoossens/wattbikehublib/badge.svg?branch=master)](https://coveralls.io/github/AartGoossens/wattbikehublib?branch=master)
 # wattbikehublib
 Python library that provides access to Wattbike sessions and other data stored in the Wattbike Hub.
 

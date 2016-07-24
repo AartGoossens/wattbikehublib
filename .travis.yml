@@ -3,10 +3,12 @@ python:
   - "3.5"
   - "3.5-dev" # 3.5 development branch
   - "nightly" # currently points to 3.6-dev
-branches:
-  except:
-  - /^(?i:feature).*$/
+# branches:
+#   except:
+#   - /^(?i:feature).*$/
 # command to install dependencies
 install: "pip install -r requirements.txt"
 # command to run tests
-script: python -m unittest discover
+script: coverage run --source watbikehublib -m unittest discover
+after_success:
+  coveralls
